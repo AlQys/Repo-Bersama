@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Belajar HTML</title>
+    <style>
+        body {
+            text-align: center;
+        }
+
+        input {
+            border: none;
+            border-bottom: 2px solid black;
+            outline: none;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body style="text-align: center;">
+
+    <h2>Booking Hotel</h2>
+
+<input type="text" placeholder="Masukkan nama">
+
+
+    <h1>Booking Hotel</h1>
+
+    <p>Nama: Alqy</p>
+    <p>Hotel: Jayakarta</p>
+
+    <button onclick="pesan()">Pesan Sekarang</button>
+
+    <p id="hasil"></p>
+
+    <script>
+        function pesan() {
+            document.getElementById("hasil").innerHTML = "Booking berhasil!";
+        }
+    </script>
+
+</body>
+</html>
